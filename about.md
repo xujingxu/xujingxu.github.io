@@ -3,44 +3,43 @@ layout: page
 title: 关于我 
 ---
 
-一个 iOS SDK 开发者，喜欢研究一些新技术。
+生物医学工程专业研究生，研究方向深度学习和影像组学。
 <p>
-平时喜欢整理个人博客，逛逛技术论坛。
+目前就读于深圳大学
+<a target="_blank" href="http://www.szu.edu.cn/"> SZU </a>
+生物医学工程专业，在读研二。
 <p>
-了解一些 前端 基本概念和 Python 的简单用法。
-
+本科燕山大学
+<a target="_blank" href="http://www.ysu.edu.cn/"> YSU </a>
+电气工程学院生物医学工程专业。
 <p>
-
-所在公司
-<a target="_blank" href="https://www.talkingdata.com/"> TalkingData </a>
-是一个移动互联网大数据平台的公司，无论你是运营、产品、开发 或者是App终端用户都可以了解下我们公司。
-<p>
-
-推荐一个我维护的 Team 博客
-<a target="_blank" href="http://talkingdata.me/"> voyagelab </a>
-里面有一些关于 iOS 、Android 和 机器学习 的文章。
-
+目前工作学习单位为
+<a target="_blank" href="http://www.siat.ac.cn/"> SIAT </a>
+（中科院深圳先进研究院），属中科院·劳特伯生物医学成像中心和深圳大学联合培养。
 <p>
 
-<h3> 我们的博客 </h3>  
 
+<h3> 我的博客 </h3> 
 <p>
-
-是的，这个博客是我们大家的，目前已经有很大一部分人在使用我的博客模板了，我也很高兴大家使用我的模板。
+我的博客主页
+<a target="_blank" href="http://xujingxu.cn/"> 白稚兄 </a>
+里面有关于深度学习，医学图像处理，影像组学的相关文章。
 
 <p>
 
-如果你想搭建一个跟我一样的博客，可以看我的 
-<a href="/2016/10/jekyll_tutorials1/"> Jekyll 搭建个人博客 </a>
-教程
+这是一个关于深度学习和医学图像处理的博客，里面会涉及一些相关论文翻译，开源项目和程序，日常学习总结和一些技术问题解决方法。
+
+<p>
+开源项目和程序会在我的
+<a target="_blank" href="http://xujingxu.cn/"> github账号 </a>
+中开源，有喜欢的同学不要忘记Star哦！
 
 <p>
 
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
+有关于博客主题和开源项目的建议和意见都可以提给我，让共同学习进步~ 
 
 <p> 
 
-博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
 
 <p> 
 
