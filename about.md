@@ -31,7 +31,7 @@ title: 关于我
 
 <p>
 开源项目和程序会在我的
-<a target="_blank" href="http://xujingxu.cn/"> github账号 </a>
+<a target="_blank" href="https://github.com/xujingxu/"> github账号 </a>
 中开源，有喜欢的同学不要忘记Star哦！
 
 <p>
@@ -39,14 +39,19 @@ title: 关于我
 有关于博客主题和开源项目的建议和意见都可以提给我，让我们共同学习进步~ 
 
 <p> 
-
-
+<h3> 专利和论文</h3> 
 <p> 
-
+1.分部位的手功能康复评估方法和装置-201611261775.X 实质审查的生效 IPC(主分类):A61B 5/22申请日:20161230
+<a target="_blank" href="http://www2.soopat.com/Patent/201611261775/"> 专利 </a>
 <p> 
-
+2.面部不自然度的自动评级方法和装置-201710161341.0 实质审查的生效 IPC(主分类):A61B 5/00申请日:20170317
+<a target="_blank" href="http://www2.soopat.com/Patent/201710161341/"> 专利 </a> 
 <p> 
-
+3.一种骨骼肌体积变化的自动测量方法和装置-201710163781.X 实质审查的生效 IPC(主分类):A61B 8/08申请日:20170317
+<a target="_blank" href="http://www2.soopat.com/Patent/201710163781/"> 专利 </a> 
+<p> 
+  
+<p>
 
 {% include comments.html %}
 
