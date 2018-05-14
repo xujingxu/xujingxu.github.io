@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "ubuntu14.04配置tensorflow tensorflow detection API"
+title: "tensorflow detection API 环境搭建"
 date: 2018-5-14
-description: "ubuntu14.04配置tensorflow tensorflow detection API"
+description: "tensorflow detection API 环境搭建"
 tag: tensorflow 
 --- 
 
