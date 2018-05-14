@@ -15,7 +15,7 @@ tensorflow object detection API是一个开源的基于tensorflow的框架，使
 
 ### 开发环境搭建（现有tensorflow=1.2.0，cuda=8.0,cudnn=5.1,anconda(python=3.6)
 
-1. tensorflow更新
+## 1. tensorflow更新
 tensorflow detection API 需要tensorflow=1.4.0，于是我们就更新了一下tensorflow
 
         $ pip install --upgrade tensorflow
@@ -23,12 +23,12 @@ tensorflow detection API 需要tensorflow=1.4.0，于是我们就更新了一下
 比较难受的事情出现了，cudnn=5.1版本不支持tensorflow=1.4,于是又更新了cudnn, 还有python=3.6不能安装tensorflow=1.4,于是利用conda建立了python=3.5的环境。
 这里cudnn更新和python=3.5环境搭建就不在这里具体描述了，之前的博客都有详细描述。
 
-2. 下载tensorflow detection API
+## 2. 下载tensorflow detection API
 
 <a target="_blank" href="https://github.com/tensorflow/models/"> https://github.com/tensorflow/models </a>
 从github上下载项目（右上角“Clone or download”-"DownloadZIP"），下载到本地目录（避免中文），解压。
 
-3. Protobuf 安装与配置
+## 3. Protobuf 安装与配置
 
  Tensorflow Object Detection API 用 Protobufs 来配置模型和训练参数. 在用这个框架之前,必须先编译Protobuf 库，
  切换到这个目录下： tensorflow/models/research/.
@@ -44,7 +44,7 @@ tensorflow detection API 需要tensorflow=1.4.0，于是我们就更新了一下
 
         $ gedit ~/.bashrc
 
-4. 测试
+## 4. 测试
 
         % cd ~/tensorflow/models/research/object_detection
 
