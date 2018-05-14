@@ -96,28 +96,28 @@ tag: tensorflow 
         from matplotlib import pyplot as plt
         from PIL import Image
 
-        # This is needed since the notebook is stored in the object_detection folder.
+        $$$ This is needed since the notebook is stored in the object_detection folder.
         sys.path.append("..")
         from object_detection.utils import ops as utils_ops
 
         if tf.__version__ < '1.4.0':
           raise ImportError('Please upgrade your tensorflow installation to v1.4.* or later!')
         
-        ### Env setup
+        $$$ Env setup
         # This is needed to display the images.
         %matplotlib inline
         
-        ### Object detection imports， Here are the imports from the object detection module.
+        $$$ Object detection imports， Here are the imports from the object detection module.
         from utils import label_map_util
         from utils import visualization_utils as vis_util
         
-        ### model preparation, Any model exported using the export_inference_graph.py tool can be loaded here simply by changing PATH_TO_CKPT to point to a new .pb file.
+        $$$ model preparation, Any model exported using the export_inference_graph.py tool can be loaded here simply by changing PATH_TO_CKPT to point to a new .pb file.
         MODEL_NAME = 'tumor'
         PATH_TO_CKPT = MPDEL_NAME + '/tumor_inference_graph.pb'
         PATH_TO_LABELS = os.path.join('data', 'face.pbtxt')
         NUM_CLASSES = 2
         
-        ### Load a (frozen) Tensorflow model into memory.
+        $$$ Load a (frozen) Tensorflow model into memory.
         detection_graph = tf.Graph()
         with detection_graph.as_default():
           od_graph_def = tf.GraphDef()
@@ -126,7 +126,7 @@ tag: tensorflow 
             od_graph_def.ParseFromString(serialized_graph)
             tf.import_graph_def(od_graph_def, name='')
             
-         ### Loading label map
+         $$$ Loading label map
          # Label maps map indices to category names, so that when our convolution network predicts 5,
          # we know that this corresponds to airplane. Here we use internal utility functions, 
          # but anything that returns a dictionary mapping integers to appropriate string labels would be fine
@@ -134,21 +134,21 @@ tag: tensorflow 
         categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True)
         category_index = label_map_util.create_category_index(categories)
         
-        ###  Helper code
+        $$$  Helper code
         def load_image_into_numpy_array(image):
           (im_width, im_height) = image.size
           return np.array(image.getdata()).reshape(
               (im_height, im_width, 3)).astype(np.uint8)
               
-        ### Detection
-        # put the test image into /test_images
-        # image1.jpg
-        # image2.jpg
-        # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
+        $$$ Detection
+        $ put the test image into /test_images
+        $ image1.jpg
+        $ image2.jpg
+        $ If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
         PATH_TO_TEST_IMAGES_DIR = 'test_images'
         TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(1, 3) ]
 
-        # Size, in inches, of the output images.
+        $ Size, in inches, of the output images.
         IMAGE_SIZE = (12, 8)
         
         def run_inference_for_single_image(image, graph):
@@ -183,11 +183,11 @@ tag: tensorflow 
                     detection_masks_reframed, 0)
               image_tensor = tf.get_default_graph().get_tensor_by_name('image_tensor:0')
 
-              # Run inference
+              $ Run inference
               output_dict = sess.run(tensor_dict,
                                      feed_dict={image_tensor: np.expand_dims(image, 0)})
 
-              # all outputs are float32 numpy arrays, so convert types as appropriate
+              $ all outputs are float32 numpy arrays, so convert types as appropriate
               output_dict['num_detections'] = int(output_dict['num_detections'][0])
               output_dict['detection_classes'] = output_dict[
                   'detection_classes'][0].astype(np.uint8)
@@ -199,14 +199,14 @@ tag: tensorflow 
   
         for image_path in TEST_IMAGE_PATHS:
           image = Image.open(image_path)
-          # the array based representation of the image will be used later in order to prepare the
-          # result image with boxes and labels on it.
+          $ the array based representation of the image will be used later in order to prepare the
+          $ result image with boxes and labels on it.
           image_np = load_image_into_numpy_array(image)
-          # Expand dimensions since the model expects images to have shape: [1, None, None, 3]
+          $ Expand dimensions since the model expects images to have shape: [1, None, None, 3]
           image_np_expanded = np.expand_dims(image_np, axis=0)
-          # Actual detection.
+          $ Actual detection.
           output_dict = run_inference_for_single_image(image_np, detection_graph)
-          # Visualization of the results of a detection.
+          $ Visualization of the results of a detection.
           vis_util.visualize_boxes_and_labels_on_image_array(
               image_np,
               output_dict['detection_boxes'],
