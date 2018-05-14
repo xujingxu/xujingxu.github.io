@@ -10,7 +10,7 @@ tag: tensorflow 
 
 ### LabelImg-制作数据集
 
-使用 LabelImg 这款小软件，标注图像。可以基于自己的任务和数据，标注出需要检测物体的bounding box,可以是一个类别也可以为多可类别。
+使用 <a target="_blank" href="https://github.com/tzutalin/labelImg/"> LabelImg </a> 这款小软件，标注图像。可以基于自己的任务和数据，标注出需要检测物体的bounding box,可以是一个类别也可以为多可类别。
 我们以肿瘤的良恶性为例。我们需要标注出肿瘤的四个坐标。
 
 标注完成后保存为同名的xml文件。
@@ -19,7 +19,7 @@ tag: tensorflow 
 
 对于Tensorflow，需要输入专门的 TFRecords Format 格式。
 
-写一个小python脚本文件，第一个将文件夹内的xml文件内的信息统一记录到CSV.见我的github（还没上传）。
+写一个小python脚本文件，第一个将文件夹内的xml文件内的信息统一记录到CSV.见我的<a target="_blank" href="https://github.com/xujingxu/Detection_tumor/"> github </a>（还没上传）。
 
         # -*- coding: utf-8 -*-  
         import os  
