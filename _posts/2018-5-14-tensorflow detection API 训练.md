@@ -36,7 +36,7 @@ tag: tensorflow 
 
 3、batch_size 原本是24，根据自己电脑配置修改
 
-4、上一个config文件中 label_map_path: "data/tv_vehicle_detection.pbtxt" 必须始终保持一致。
+4、上一个config文件中 label_map_path: "data/tumor_detection.pbtxt" 必须始终保持一致。
 
 5、fine_tune_checkpoint: "ssd_mobilenet_v1_coco_11_06_2017/model.ckpt"
   from_detection_checkpoint: true
@@ -70,9 +70,9 @@ tag: tensorflow 
 --trained_checkpoint_prefix training/model.ckpt-00000   
 这个checkpoint（.ckpt-后面的数字）可以在training文件夹下找到你自己训练的模型的情况，填上对应的数字（如果有多个，选最大的）。
 
---output_directory tumor_vehicle_inference_graph  改成自己的名字
+--output_directory tumor_inference_graph  改成自己的名字
 
-运行完后，可以在tv_vehicle_inference_graph （这是我的名字）文件夹下发现若干文件，有saved_model、checkpoint、frozen_inference_graph.pb等。
+运行完后，可以在tv_inference_graph （这是我的名字）文件夹下发现若干文件，有saved_model、checkpoint、frozen_inference_graph.pb等。
 .pb结尾的就是最重要的frozen model了，还记得第一大部分中frozen model吗？没错，就是我们在后面要用到的部分。
 
 ### 测试模型
