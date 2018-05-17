@@ -72,7 +72,7 @@ tag: tensorflow 
 
 --output_directory tumor_inference_graph  改成自己的名字
 
-运行完后，可以在tv_inference_graph （这是我的名字）文件夹下发现若干文件，有saved_model、checkpoint、frozen_inference_graph.pb等。
+运行完后，可以在tumor_inference_graph （这是我的名字）文件夹下发现若干文件，有saved_model、checkpoint、frozen_inference_graph.pb等。
 .pb结尾的就是最重要的frozen model了，还记得第一大部分中frozen model吗？没错，就是我们在后面要用到的部分。
 
 ### 测试模型
@@ -114,7 +114,7 @@ tag: tensorflow 
         $$$ model preparation, Any model exported using the export_inference_graph.py tool can be loaded here simply by changing PATH_TO_CKPT to point to a new .pb file.
         MODEL_NAME = 'tumor'
         PATH_TO_CKPT = MPDEL_NAME + '/tumor_inference_graph.pb'
-        PATH_TO_LABELS = os.path.join('data', 'face.pbtxt')
+        PATH_TO_LABELS = os.path.join('data', 'tumor.pbtxt')
         NUM_CLASSES = 2
         
         $$$ Load a (frozen) Tensorflow model into memory.
