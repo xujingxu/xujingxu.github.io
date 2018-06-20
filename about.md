@@ -39,7 +39,14 @@ title: 关于我
 有关于博客主题和开源项目的建议和意见都可以提给我，让我们共同学习进步~ 
 
 <p> 
-<h3> 专利和论文</h3> 
+<h3> 论文</h3> 
+<p> 
+1.Yongjin Zhou , Jingxu Xu, Qiegen Liu, Cheng Li, Zaiyi Liu, Meiyun Wang, Hairong Zheng, Shanshan Wang*,    A Radiomics Approach with CNN for Shear-wave Elastography Breast Tumor Classification, IEEE Transactions on Biomedical Engineering. 2018, DOI：10.1109/TBME.2018.2844188
+<a target="_blank" href="https://ieeexplore.ieee.org/document/8372445/"> 论文地址</a>
+<p> 
+
+<p> 
+<h3> 专利</h3> 
 <p> 
 1.分部位的手功能康复评估方法和装置-201611261775.X 实质审查的生效 IPC(主分类):A61B 5/22申请日:20161230
 <a target="_blank" href="http://www2.soopat.com/Patent/201611261775/"> 专利 </a>
