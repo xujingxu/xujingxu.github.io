@@ -55,7 +55,7 @@ title: 关于我
 <a target="_blank" href="http://www2.soopat.com/Patent/201710161341/"> 专利 </a> 
 <p> 
 3.一种骨骼肌体积变化的自动测量方法和装置-201710163781.X 实质审查的生效 IPC(主分类):A61B 8/08申请日:20170317
-<a target="_blank" href="http://www2.soopat.com/Patent/201710163781/"> 专利 </a> 哈哈哈
+<a target="_blank" href="http://www2.soopat.com/Patent/201710163781/"> 专利 </a> 
 <p> 
   
 <p>
