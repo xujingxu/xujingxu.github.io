@@ -34,11 +34,11 @@ title: 关于我
 <p>
 我的谷歌学术主页<a target="_blank" href="https://scholar.google.com/citations?user=pOFVAo0AAAAJ&hl=zh-CN/"> 学术主页</a>
 <p> 
-1.Yongjin Zhou , __Jingxu Xu__, Qiegen Liu, Cheng Li, Zaiyi Liu, Meiyun Wang, Hairong Zheng, Shanshan Wang*,    A Radiomics Approach with CNN for Shear-wave Elastography Breast Tumor Classification, IEEE Transactions on Biomedical Engineering. 2018, DOI：10.1109/TBME.2018.2844188<a target="_blank" href="https://ieeexplore.ieee.org/document/8372445/"> 论文地址</a>
+1.Yongjin Zhou , Jingxu Xu, Qiegen Liu, Cheng Li, Zaiyi Liu, Meiyun Wang, Hairong Zheng, Shanshan Wang*,    A Radiomics Approach with CNN for Shear-wave Elastography Breast Tumor Classification, IEEE Transactions on Biomedical Engineering. 2018, DOI：10.1109/TBME.2018.2844188<a target="_blank" href="https://ieeexplore.ieee.org/document/8372445/"> 论文地址</a>
 <p>
-2.__Jingxu Xu__, Depeng Xu, Qianyue Wei, Yongjin Zhou，Automatic classification of male and female skeletal muscles using ultrasound imaging Biomedical Signal Processing and Control  2020，57, 101731 <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S174680941930312X/"> 论文地址</a>
+2.Jingxu Xu, Depeng Xu, Qianyue Wei, Yongjin Zhou，Automatic classification of male and female skeletal muscles using ultrasound imaging Biomedical Signal Processing and Control  2020，57, 101731 <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S174680941930312X/"> 论文地址</a>
 <p>
-3.Cheng Li, __Jingxu Xu__, Qiegen Liu, Yongjin Zhou, Lisha Mou, Zuhui Pu, Yong Xia, Hairong Zheng, Shanshan Wang，Multi-View Mammographic Density Classification by Dilated and Attention-Guided Residual Learning. IEEE/ACM Transactions on Computational Biology and Bioinformatics 2020 <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8978513"> 论文地址</a>
+3.Cheng Li, Jingxu Xu, Qiegen Liu, Yongjin Zhou, Lisha Mou, Zuhui Pu, Yong Xia, Hairong Zheng, Shanshan Wang，Multi-View Mammographic Density Classification by Dilated and Attention-Guided Residual Learning. IEEE/ACM Transactions on Computational Biology and Bioinformatics 2020 <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8978513"> 论文地址</a>
 <p> 
 
 <p> 
