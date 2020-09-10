@@ -39,6 +39,8 @@ title: 关于我
 2.Jingxu Xu, Depeng Xu, Qianyue Wei, Yongjin Zhou，Automatic classification of male and female skeletal muscles using ultrasound imaging Biomedical Signal Processing and Control  2020，57, 101731 <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S174680941930312X/"> 论文地址</a>
 <p>
 3.Cheng Li, Jingxu Xu, Qiegen Liu, Yongjin Zhou, Lisha Mou, Zuhui Pu, Yong Xia, Hairong Zheng, Shanshan Wang，Multi-View Mammographic Density Classification by Dilated and Attention-Guided Residual Learning. IEEE/ACM Transactions on Computational Biology and Bioinformatics 2020 <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8978513"> 论文地址</a>
+<p>
+4.陈心怡,明樱,韩雨晴,黄陈翠,徐井旭,刘庆伟,黄召勤.基于CT动脉期图像构建预测肾透明细胞癌分级人工智能模型及其效能分析[J].医学影像学杂志,2020,30(6):1033-1036. <a target="_blank" href="http://med.wanfangdata.com.cn/Paper/Detail/PeriodicalPaper_yxyxxzz202006031"> 论文地址</a>
 <p> 
 
 <p> 
